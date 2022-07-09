@@ -1,0 +1,59 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+    background-color: #f7dab5c9;
+
+}
+
+.Nome-Padoca{
+   padding-left: 7em; 
+}
+
+.Nome-Padoca h1{
+    font-family: Lobster;
+    font-size: 2.5em;
+}
+
+.Telas{
+    padding-right: 4.5em;
+}
+
+.Telas a{
+    font-family: Signika Negative;
+    font-size: 1.5em;
+    
+    padding: 0em 0.5em;
+}
+
+.Telas :hover{
+    transform: scale(1.2);
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 10em;
+    
+}
+
+.meios-contato{
+    margin-top: 4em;
+}
+
+.meios-contato h2{
+    font-family: Secular One;
+    font-size: 2em;
+
+}
+
+.meios-contato p{
+    font-family:Signika Negative ;
+    font-size: 1.3em;
+    padding-top: 1em;
+}

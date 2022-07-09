@@ -1,0 +1,107 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+    background-color: #f7dab5c9;
+
+}
+
+.Nome-Padoca{
+   padding-left: 7em; 
+}
+
+.Nome-Padoca h1{
+    font-family: Lobster;
+    font-size: 2.5em;
+}
+
+.Telas{
+    padding-right: 4.5em;
+}
+
+.Telas a{
+    font-family: Signika Negative;
+    font-size: 1.5em;
+    
+    padding: 0em 0.5em;
+}
+
+.Telas :hover{
+    transform: scale(1.2);
+}
+
+.img{
+    height: 100vh;
+}
+
+.imagem-fundo{
+    background-color: #f7dab5c9;
+}
+
+.Rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color:#f7dab5c9;
+    height: 40vh;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titulo-bloco{
+
+    padding: 2em;
+
+    font-family:Secular One ;
+    font-size:1.5em ;
+}
+
+.imagem-rodape{
+    height: 5vh;
+    border: none;
+}
+
+.textos-bloco{
+    font-size:1.3em;
+    font-family: Dosis;
+    color: black;
+    
+    width: 13em;
+}
+
+.suporte{
+    font-size:1.3em;
+    font-family: Dosis;
+    color: black;
+
+    cursor: pointer;
+}
+
+.suporte p{
+    padding: 5px;
+}
+
+.suporte p:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+
+}
+
+.redes{
+    padding: 0px 10px;
+
+    cursor: pointer;
+}
+
+.imagem-rodape:hover{
+    transform:scale(1.2);
+}
